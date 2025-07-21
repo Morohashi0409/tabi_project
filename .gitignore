@@ -23,3 +23,15 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Bolt framework files
+.bolt/
+
+# Documentation and spec files (keep in docs folder instead)
+*.md
+!README.md
+!docs/**/*.md
+
+# Temporary files
+*.tmp
+*.temp
